@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  external-snapshotter:
+  - apiVersion: v2
+    appVersion: 6.0.1
+    created: "2022-08-20T12:17:59.1587+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 9c02931f712fa7a7902d78cc9091d443add9ea985fb44e0484ee9509c39df7f4
+    name: external-snapshotter
+    type: application
+    urls:
+    - external-snapshotter-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-08-20T12:17:59.158278+09:00"
