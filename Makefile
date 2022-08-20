@@ -23,3 +23,8 @@ update-app-version:
 
 patch-version:
 	sh bin/patch-version.sh
+
+release:
+	rsync -ahv --delete charts/ stable
+	cd stable && helm package external-snapshotter
+	helm repo index stable
